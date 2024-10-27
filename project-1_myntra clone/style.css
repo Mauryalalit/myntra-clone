@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body{
+   height: 100%;
+   width: 100%;
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.left img{
+    width:35px;
+    height: 23px;
+}
+
+header{
+   position: sticky;
+   top: 0;
+   background-color: white;
+   height: 66px;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@media (max-width: 1000px){
+    header{
+        background-color: red;
+        height: 122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tick{
+        padding: 0 -100px;
+        width: 800px;
+    }
+    .tick2{
+        flex-wrap: wrap;
+    }
+}
+
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+.container{
+    padding: 0 10vw;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1{
+    background-color: #f5f0f0;
+    
+}
+
+.search{
+    padding: 10px 14px;
+    width: 25vw;
+    border-radius: 5px;
+    background: #f7f8fd;
+    border: 0.5px  gray;
+}
+
+.homepic{
+    width: 80vw;
+    padding: -22px;
+}
+
+.homepic0{
+    width: 78vw;
+    padding: 19px;
+}
+
+.homepic1{
+    width: 80vw;
+    padding: -1px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+
+}
+
